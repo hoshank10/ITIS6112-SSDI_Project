@@ -1,4 +1,4 @@
-//hello git 
+//hello git test
 var http = require('http'); // Import Node.js core module
 var mysql = require('mysql');
 var con = mysql.createConnection({
@@ -33,4 +33,4 @@ var server = http.createServer(function (req, res) {   //create web server
 
 server.listen(8000); //6 - listen for any incoming requests
 
-console.log('Node.js web server at port 8000 is running..')
+console.log('Node.js web server at port 8000 is running..');
